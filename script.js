@@ -123,7 +123,7 @@ function drawJewelry(landmarks, ctx) {
     y: landmarks[361].y * canvasElement.height - 16, // final upward fix
   };
   const neck = {
-    x: landmarks[152].x * canvasElement.width, - 6
+    x: landmarks[152].x * canvasElement.width, - 8
     y: landmarks[152].y * canvasElement.height + 42,
   };
 
