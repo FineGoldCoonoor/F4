@@ -115,11 +115,11 @@ function drawJewelry(landmarks, ctx) {
   const necklaceScale = 0.18;
 
   const leftEar = {
-    x: landmarks[132].x * canvasElement.width - 7.5,
+    x: landmarks[132].x * canvasElement.width - 8,
     y: landmarks[132].y * canvasElement.height - 16, // final upward fix
   };
   const rightEar = {
-    x: landmarks[361].x * canvasElement.width + 7.5,
+    x: landmarks[361].x * canvasElement.width + 8,
     y: landmarks[361].y * canvasElement.height - 16, // final upward fix
   };
   const neck = {
